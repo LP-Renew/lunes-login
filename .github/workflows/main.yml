@@ -2,7 +2,7 @@ name: lunes Auto Login
 
 on:
   schedule:
-    - cron: '15 2 * * *'  # 每天北京时间 10:15 运行 (UTC 02:15)
+    - cron: '15 2 * * 5'  # 每周五北京时间10：15时运行一次
   workflow_dispatch:
 
 permissions:
